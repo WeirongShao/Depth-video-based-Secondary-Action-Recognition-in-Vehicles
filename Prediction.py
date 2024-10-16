@@ -13,7 +13,7 @@ model_path = ""
 model = keras.models.load_model(model_path.replace("\\", "/"))  # Use forward slashes to ensure the correct path
 
 # Path to the video file
-video_path = "D:/PoseEstimation/Grad-CAM/run1_2018-05-03-14-08-31.kinect_depth (online-video-cutter.com)7.mp4"
+video_path = ""
 cap = cv2.VideoCapture(video_path.replace("\\", "/"))  # Also use forward slashes
 
 # Get video information for VideoWriter
@@ -22,7 +22,7 @@ frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 
 # Path to save the output video file
-output_path = "D:/PoseEstimation/Grad-CAM/output_video_prediction.mp4"  # You can modify this path to save to your desired location
+output_path = "output_video_prediction.mp4"  # You can modify this path to save to your desired location
 
 # Initialize the VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Define the codec
