@@ -9,7 +9,7 @@ CLASSES_LIST = ["drinking", "eating", "fastening_seat_belt", "fetching_an_object
                 , "reading_newspaper", "taking_off_jacket", "talking_on_phone", "unfastening_seat_belt"
                 , "using_multimedia_display", "working_on_laptop", "writing", "looking_or_moving_around (e.g. searching)"
                 , "sitting_still"]
-model_path = "D:/PoseEstimation/Human_Activity_Recognition_using_TensorFlow_CNN_LSTM_Code/LRCN_model_drive_and_act_Date_Time_2024_04_27__22_13_18___Loss_0.9746441841125488___Accuracy_0.7447761297225952.h5"
+model_path = ""
 model = keras.models.load_model(model_path.replace("\\", "/"))  # Use forward slashes to ensure the correct path
 
 # Path to the video file
