@@ -1,6 +1,3 @@
-# Depth-video-based-Secondary-Action-Recognition-in-Vehicles
-
-
 <div align="center">
 <h1> Depth-video based Secondary Action Recognition in Vehicles via CNN and Bi-LSTM with Spatial Enhance Attention Mechanism </h1>
 
